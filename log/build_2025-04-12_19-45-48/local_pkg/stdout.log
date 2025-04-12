@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing local_pkg.egg-info/PKG-INFO
+writing dependency_links to local_pkg.egg-info/dependency_links.txt
+writing entry points to local_pkg.egg-info/entry_points.txt
+writing requirements to local_pkg.egg-info/requires.txt
+writing top-level names to local_pkg.egg-info/top_level.txt
+reading manifest file 'local_pkg.egg-info/SOURCES.txt'
+writing manifest file 'local_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rajwardhan/localisation_pkg/install/local_pkg/lib/python3.10/site-packages/local_pkg.egg-link (link to .)
+Installing serial_node_imu script to /home/rajwardhan/localisation_pkg/install/local_pkg/lib/local_pkg
+Installing serial_node_rotor script to /home/rajwardhan/localisation_pkg/install/local_pkg/lib/local_pkg
+
+Installed /home/rajwardhan/localisation_pkg/build/local_pkg
+running symlink_data
+symbolically linking /home/rajwardhan/localisation_pkg/build/local_pkg/resource/local_pkg -> /home/rajwardhan/localisation_pkg/install/local_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/rajwardhan/localisation_pkg/build/local_pkg/package.xml -> /home/rajwardhan/localisation_pkg/install/local_pkg/share/local_pkg
