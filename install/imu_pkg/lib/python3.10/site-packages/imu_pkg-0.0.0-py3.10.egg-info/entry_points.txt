@@ -1,0 +1,4 @@
+[console_scripts]
+serial_node_imu = imu_pkg.Serial_node_imu:main
+serial_node_rotor = imu_pkg.Serial_node_rotor:main
+

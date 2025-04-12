@@ -1,0 +1,20 @@
+[0.408s] Invoking command in '/home/rajwardhan/localisation_pkg/build/local_pkg': PYTHONPATH=/home/rajwardhan/localisation_pkg/build/local_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rajwardhan/localisation_pkg/install/local_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rajwardhan/localisation_pkg/build/local_pkg/build --no-deps symlink_data --force
+[0.585s] running develop
+[0.700s] running egg_info
+[0.700s] writing local_pkg.egg-info/PKG-INFO
+[0.700s] writing dependency_links to local_pkg.egg-info/dependency_links.txt
+[0.700s] writing entry points to local_pkg.egg-info/entry_points.txt
+[0.700s] writing requirements to local_pkg.egg-info/requires.txt
+[0.700s] writing top-level names to local_pkg.egg-info/top_level.txt
+[0.716s] reading manifest file 'local_pkg.egg-info/SOURCES.txt'
+[0.716s] writing manifest file 'local_pkg.egg-info/SOURCES.txt'
+[0.724s] running build_ext
+[0.724s] Creating /home/rajwardhan/localisation_pkg/install/local_pkg/lib/python3.10/site-packages/local_pkg.egg-link (link to .)
+[0.725s] Installing serial_node_imu script to /home/rajwardhan/localisation_pkg/install/local_pkg/lib/local_pkg
+[0.725s] Installing serial_node_rotor script to /home/rajwardhan/localisation_pkg/install/local_pkg/lib/local_pkg
+[0.725s] 
+[0.725s] Installed /home/rajwardhan/localisation_pkg/build/local_pkg
+[0.725s] running symlink_data
+[0.725s] symbolically linking /home/rajwardhan/localisation_pkg/build/local_pkg/resource/local_pkg -> /home/rajwardhan/localisation_pkg/install/local_pkg/share/ament_index/resource_index/packages
+[0.725s] symbolically linking /home/rajwardhan/localisation_pkg/build/local_pkg/package.xml -> /home/rajwardhan/localisation_pkg/install/local_pkg/share/local_pkg
+[0.743s] Invoked command in '/home/rajwardhan/localisation_pkg/build/local_pkg' returned '0': PYTHONPATH=/home/rajwardhan/localisation_pkg/build/local_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rajwardhan/localisation_pkg/install/local_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rajwardhan/localisation_pkg/build/local_pkg/build --no-deps symlink_data --force

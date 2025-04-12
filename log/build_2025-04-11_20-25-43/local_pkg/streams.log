@@ -1,0 +1,27 @@
+[0.402s] Invoking command in '/home/rajwardhan/localisation_pkg/src/local_pkg': PYTHONPATH=/home/rajwardhan/localisation_pkg/build/local_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rajwardhan/localisation_pkg/install/local_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/local_pkg build --build-base /home/rajwardhan/localisation_pkg/build/local_pkg/build install --record /home/rajwardhan/localisation_pkg/build/local_pkg/install.log --single-version-externally-managed install_data
+[0.524s] running egg_info
+[0.532s] writing ../../build/local_pkg/local_pkg.egg-info/PKG-INFO
+[0.532s] writing dependency_links to ../../build/local_pkg/local_pkg.egg-info/dependency_links.txt
+[0.532s] writing entry points to ../../build/local_pkg/local_pkg.egg-info/entry_points.txt
+[0.532s] writing requirements to ../../build/local_pkg/local_pkg.egg-info/requires.txt
+[0.532s] writing top-level names to ../../build/local_pkg/local_pkg.egg-info/top_level.txt
+[0.548s] reading manifest file '../../build/local_pkg/local_pkg.egg-info/SOURCES.txt'
+[0.549s] writing manifest file '../../build/local_pkg/local_pkg.egg-info/SOURCES.txt'
+[0.549s] running build
+[0.549s] running build_py
+[0.549s] copying local_pkg/Serial_node_imu.py -> /home/rajwardhan/localisation_pkg/build/local_pkg/build/lib/local_pkg
+[0.549s] copying local_pkg/__init__.py -> /home/rajwardhan/localisation_pkg/build/local_pkg/build/lib/local_pkg
+[0.549s] copying local_pkg/Serial_node_rotor.py -> /home/rajwardhan/localisation_pkg/build/local_pkg/build/lib/local_pkg
+[0.549s] running install
+[0.553s] running install_lib
+[0.561s] running install_data
+[0.561s] copying resource/local_pkg -> /home/rajwardhan/localisation_pkg/install/local_pkg/share/ament_index/resource_index/packages
+[0.561s] copying package.xml -> /home/rajwardhan/localisation_pkg/install/local_pkg/share/local_pkg
+[0.561s] running install_egg_info
+[0.569s] removing '/home/rajwardhan/localisation_pkg/install/local_pkg/lib/python3.10/site-packages/local_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.569s] Copying ../../build/local_pkg/local_pkg.egg-info to /home/rajwardhan/localisation_pkg/install/local_pkg/lib/python3.10/site-packages/local_pkg-0.0.0-py3.10.egg-info
+[0.570s] running install_scripts
+[0.645s] Installing serial_node_imu script to /home/rajwardhan/localisation_pkg/install/local_pkg/lib/local_pkg
+[0.646s] Installing serial_node_rotor script to /home/rajwardhan/localisation_pkg/install/local_pkg/lib/local_pkg
+[0.646s] writing list of installed files to '/home/rajwardhan/localisation_pkg/build/local_pkg/install.log'
+[0.660s] Invoked command in '/home/rajwardhan/localisation_pkg/src/local_pkg' returned '0': PYTHONPATH=/home/rajwardhan/localisation_pkg/build/local_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rajwardhan/localisation_pkg/install/local_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/local_pkg build --build-base /home/rajwardhan/localisation_pkg/build/local_pkg/build install --record /home/rajwardhan/localisation_pkg/build/local_pkg/install.log --single-version-externally-managed install_data

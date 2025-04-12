@@ -1,0 +1,70 @@
+[0.102s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/rajwardhan/localisation_pkg']
+[0.102s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/rajwardhan/localisation_pkg'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7401faf91240>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7401fb0916f0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7401fb0916f0>>, mixin_verb=('list',))
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.148s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rajwardhan/localisation_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg) by extension 'ros'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg) by extension 'python'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg) by extensions ['python_setup_py']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg) by extension 'python_setup_py'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/build) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/build) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/build) ignored
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/install) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/install) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/install) ignored
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/launch) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/launch) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/launch) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/launch) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/launch) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/launch) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/launch) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/launch) by extension 'ros'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/launch) by extensions ['cmake', 'python']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/launch) by extension 'cmake'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/launch) by extension 'python'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/launch) by extensions ['python_setup_py']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/launch) by extension 'python_setup_py'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/log) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/log) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/log) ignored
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/src) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/src) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/src) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/src) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/src) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/src) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/src) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/src) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/src) by extension 'ros'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/src) by extensions ['cmake', 'python']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/src) by extension 'cmake'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/src) by extension 'python'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/src) by extensions ['python_setup_py']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/src) by extension 'python_setup_py'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/src/local_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/src/local_pkg) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/src/local_pkg) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/src/local_pkg) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/src/local_pkg) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/src/local_pkg) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/src/local_pkg) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/src/local_pkg) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/rajwardhan/localisation_pkg/src/local_pkg) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package '/home/rajwardhan/localisation_pkg/src/local_pkg' with type 'ros.ament_python' and name 'local_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

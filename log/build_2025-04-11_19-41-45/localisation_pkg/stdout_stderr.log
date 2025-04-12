@@ -1,0 +1,29 @@
+running egg_info
+creating ../../build/localisation_pkg/local_pkg.egg-info
+writing ../../build/localisation_pkg/local_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/localisation_pkg/local_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/localisation_pkg/local_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/localisation_pkg/local_pkg.egg-info/requires.txt
+writing top-level names to ../../build/localisation_pkg/local_pkg.egg-info/top_level.txt
+writing manifest file '../../build/localisation_pkg/local_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/localisation_pkg/local_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/localisation_pkg/local_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rajwardhan/localisation_pkg/build/localisation_pkg/build
+creating /home/rajwardhan/localisation_pkg/build/localisation_pkg/build/lib
+creating /home/rajwardhan/localisation_pkg/build/localisation_pkg/build/lib/local_pkg
+copying local_pkg/Serial_node_imu.py -> /home/rajwardhan/localisation_pkg/build/localisation_pkg/build/lib/local_pkg
+copying local_pkg/__init__.py -> /home/rajwardhan/localisation_pkg/build/localisation_pkg/build/lib/local_pkg
+copying local_pkg/Serial_node_rotor.py -> /home/rajwardhan/localisation_pkg/build/localisation_pkg/build/lib/local_pkg
+running install
+running install_lib
+creating /home/rajwardhan/localisation_pkg/install/localisation_pkg/lib/python3.10/site-packages/local_pkg
+copying /home/rajwardhan/localisation_pkg/build/localisation_pkg/build/lib/local_pkg/Serial_node_imu.py -> /home/rajwardhan/localisation_pkg/install/localisation_pkg/lib/python3.10/site-packages/local_pkg
+copying /home/rajwardhan/localisation_pkg/build/localisation_pkg/build/lib/local_pkg/__init__.py -> /home/rajwardhan/localisation_pkg/install/localisation_pkg/lib/python3.10/site-packages/local_pkg
+copying /home/rajwardhan/localisation_pkg/build/localisation_pkg/build/lib/local_pkg/Serial_node_rotor.py -> /home/rajwardhan/localisation_pkg/install/localisation_pkg/lib/python3.10/site-packages/local_pkg
+byte-compiling /home/rajwardhan/localisation_pkg/install/localisation_pkg/lib/python3.10/site-packages/local_pkg/Serial_node_imu.py to Serial_node_imu.cpython-310.pyc
+byte-compiling /home/rajwardhan/localisation_pkg/install/localisation_pkg/lib/python3.10/site-packages/local_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rajwardhan/localisation_pkg/install/localisation_pkg/lib/python3.10/site-packages/local_pkg/Serial_node_rotor.py to Serial_node_rotor.cpython-310.pyc
+running install_data
+error: can't copy 'resource/local_pkg': doesn't exist or not a regular file

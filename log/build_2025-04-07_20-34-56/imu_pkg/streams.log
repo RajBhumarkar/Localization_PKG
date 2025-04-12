@@ -1,0 +1,21 @@
+[0.330s] Invoking command in '/home/rajwardhan/imuros2/src/imu_pkg': PYTHONPATH=/home/rajwardhan/imuros2/build/imu_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rajwardhan/imuros2/install/imu_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_pkg build --build-base /home/rajwardhan/imuros2/build/imu_pkg/build install --record /home/rajwardhan/imuros2/build/imu_pkg/install.log --single-version-externally-managed install_data
+[0.455s] running egg_info
+[0.455s] writing ../../build/imu_pkg/imu_pkg.egg-info/PKG-INFO
+[0.455s] writing dependency_links to ../../build/imu_pkg/imu_pkg.egg-info/dependency_links.txt
+[0.455s] writing entry points to ../../build/imu_pkg/imu_pkg.egg-info/entry_points.txt
+[0.455s] writing requirements to ../../build/imu_pkg/imu_pkg.egg-info/requires.txt
+[0.455s] writing top-level names to ../../build/imu_pkg/imu_pkg.egg-info/top_level.txt
+[0.456s] reading manifest file '../../build/imu_pkg/imu_pkg.egg-info/SOURCES.txt'
+[0.456s] writing manifest file '../../build/imu_pkg/imu_pkg.egg-info/SOURCES.txt'
+[0.456s] running build
+[0.456s] running build_py
+[0.457s] running install
+[0.457s] running install_lib
+[0.457s] running install_data
+[0.457s] running install_egg_info
+[0.458s] removing '/home/rajwardhan/imuros2/install/imu_pkg/lib/python3.10/site-packages/imu_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.458s] Copying ../../build/imu_pkg/imu_pkg.egg-info to /home/rajwardhan/imuros2/install/imu_pkg/lib/python3.10/site-packages/imu_pkg-0.0.0-py3.10.egg-info
+[0.459s] running install_scripts
+[0.470s] Installing serial_node script to /home/rajwardhan/imuros2/install/imu_pkg/lib/imu_pkg
+[0.470s] writing list of installed files to '/home/rajwardhan/imuros2/build/imu_pkg/install.log'
+[0.482s] Invoked command in '/home/rajwardhan/imuros2/src/imu_pkg' returned '0': PYTHONPATH=/home/rajwardhan/imuros2/build/imu_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rajwardhan/imuros2/install/imu_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_pkg build --build-base /home/rajwardhan/imuros2/build/imu_pkg/build install --record /home/rajwardhan/imuros2/build/imu_pkg/install.log --single-version-externally-managed install_data

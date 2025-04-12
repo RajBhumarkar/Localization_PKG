@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/localisation_pkg/local_pkg.egg-info/PKG-INFO
+../../build/localisation_pkg/local_pkg.egg-info/SOURCES.txt
+../../build/localisation_pkg/local_pkg.egg-info/dependency_links.txt
+../../build/localisation_pkg/local_pkg.egg-info/entry_points.txt
+../../build/localisation_pkg/local_pkg.egg-info/requires.txt
+../../build/localisation_pkg/local_pkg.egg-info/top_level.txt
+../../build/localisation_pkg/local_pkg.egg-info/zip-safe
+local_pkg/Serial_node_imu.py
+local_pkg/Serial_node_rotor.py
+local_pkg/__init__.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
